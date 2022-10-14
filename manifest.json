@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "VClass Revealer",
+    "version": "1.0",
+    "description": "Reveal VClass online users even if they are hidden by admins.",
+    "icons": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icons/icon-48.png",
+        "default_title": "Reveal Users",
+        "default_popup": "popup/popup.html"
+    }
+}
